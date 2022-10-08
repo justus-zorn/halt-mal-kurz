@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <img src="title.png" width="100%">
-        <iframe width="70%" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-        <div>
-            In diesem Spiel müsst ihr die anderen (insbesondere Nico) möglichst gekonnt ärgern!
-            Dafür gibt es Vollversammlungen, Not-to-do-Listen, epische
-            Gruppen-Schnick-Schnack-Schnucks, Nazis zum Draufschlagen und natürlich die verhasste
-            Razupaltuffkarte.
+        <center>
+            <img id="title" src="title.png">
+        </center>
+        <center>
+            <audio controls id="audio">
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browse does not support the audio element.
+            </audio>
+            <div id="content">
+                In diesem Spiel müsst ihr die anderen (insbesondere Nico) möglichst gekonnt ärgern!
+                Dafür gibt es Vollversammlungen, Not-to-do-Listen, epische
+                Gruppen-Schnick-Schnack-Schnucks, Nazis zum Draufschlagen und natürlich die verhasste
+                Razupaltuffkarte.
+            </div>
+        </center>
+        <div id="cards">
+            <img src="assembly.png">
+            <img src="razupaltuff.png">
+            <img src="capitalism.png">
         </div>
     </body>
 </html>
